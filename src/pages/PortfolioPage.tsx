@@ -8,7 +8,8 @@ import SkillsSection from "../components/SkillsSection";
 import ReflectiveJournalSection from "../components/ReflectiveJournalSection";
 import CareerPlanSection from "../components/CareerPlanSection";
 import CVSection from "../components/CVSection";
-import ContactSection from "../components/ContactSection";
+import ContactMeSection from "../components/ContactMeSection";
+import Footer from "../components/Footer";
 import ProjectCard from "../components/ProjectCard";
 import CertificateCard from "../components/CertificateCard";
 import EditableDataPanel from "../components/EditableDataPanel";
@@ -110,7 +111,8 @@ export default function PortfolioPage() {
         </div>
       </section>
 
-      <ContactSection />
+      <ContactMeSection />
+      <Footer />
     </div>
   );
 }

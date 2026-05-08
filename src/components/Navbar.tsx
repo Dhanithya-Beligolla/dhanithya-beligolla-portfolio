@@ -20,7 +20,7 @@ export default function Navbar() {
     <nav className="fixed left-0 top-0 z-50 w-full border-b border-white/10 bg-slate-950/90 backdrop-blur no-print">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
         <a href="#home" className="text-lg font-bold text-white">
-          Dhanithya<span className="text-blue-400">.</span>
+          Dhanithya Beligolla<span className="text-blue-400">.</span>
         </a>
 
         <div className="hidden items-center gap-6 lg:flex">
