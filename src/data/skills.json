@@ -1,0 +1,42 @@
+{
+  "technical": [
+    {
+      "category": "Frontend Development",
+      "items": ["React", "Vite", "HTML", "CSS", "Tailwind CSS", "JavaScript", "TypeScript"]
+    },
+    {
+      "category": "Backend Development",
+      "items": ["Node.js", "Express.js", "Java", "Python", "REST APIs"]
+    },
+    {
+      "category": "Databases",
+      "items": ["Oracle DB", "MySQL", "MS SQL", "Dataverse"]
+    },
+    {
+      "category": "AI/ML",
+      "items": ["Machine Learning", "NLP", "CNN", "TensorFlow", "Keras", "Generative AI"]
+    },
+    {
+      "category": "Cloud & Tools",
+      "items": ["Oracle Cloud", "Google Vertex AI Workbench", "GitHub", "Postman", "Docker Basics"]
+    },
+    {
+      "category": "Microsoft Platform",
+      "items": ["Power Apps", "Power Automate", "Dataverse", "O365"]
+    },
+    {
+      "category": "Mobile Development",
+      "items": ["Flutter", "Kotlin", "Dart"]
+    }
+  ],
+  "professional": [
+    "Problem Solving",
+    "Teamwork",
+    "Adaptability",
+    "Fast Learning",
+    "Communication",
+    "Presentation Skills",
+    "Research Thinking",
+    "Enterprise Software Understanding"
+  ]
+}

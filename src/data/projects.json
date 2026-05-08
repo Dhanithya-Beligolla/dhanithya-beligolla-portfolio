@@ -1,0 +1,48 @@
+[
+  {
+    "id": "centralized-credit-management",
+    "title": "Centralized Credit Management Workflow",
+    "type": "Professional Project",
+    "role": "Main Developer",
+    "organization": "DFCC Bank PLC",
+    "description": "A workflow solution designed to automate and streamline the credit facility initiation and approval process with real-time notifications and status updates.",
+    "technologies": ["Node.js", "Express.js", "React", "Oracle DB"],
+    "attachments": []
+  },
+  {
+    "id": "complaint-management-system",
+    "title": "Complaint Management System",
+    "type": "Professional Project",
+    "role": "Main Developer",
+    "organization": "DFCC Bank PLC",
+    "description": "A Microsoft Power Platform-based system for collecting customer complaints through call centers and branches, then routing them to relevant departments with notifications and status updates.",
+    "technologies": ["Power Apps", "Power Automate", "Dataverse"],
+    "attachments": []
+  },
+  {
+    "id": "edusphere",
+    "title": "EduSphere School LMS",
+    "type": "Academic Project",
+    "role": "API Gateway, Identity Service, Homework & Assessment Service Developer",
+    "organization": "SLIIT",
+    "description": "A microservices-based school LMS developed by a 6-member team, supporting authentication, service routing, and assignment management.",
+    "technologies": ["Node.js", "Express.js", "FastAPI", "PostgreSQL", "Docker"],
+    "attachments": [
+      {
+        "label": "GitHub Repository",
+        "type": "github",
+        "url": "PASTE_GITHUB_LINK_HERE"
+      }
+    ]
+  },
+  {
+    "id": "brain-tumor-classification",
+    "title": "Brain Tumor Classification",
+    "type": "AI/ML Project",
+    "role": "Developer",
+    "organization": "Academic / Personal",
+    "description": "A custom CNN baseline model for classifying brain tumor MRI images into four categories using TensorFlow/Keras.",
+    "technologies": ["Python", "TensorFlow", "Keras", "CNN"],
+    "attachments": []
+  }
+]

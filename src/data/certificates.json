@@ -1,0 +1,72 @@
+[
+  {
+    "id": "oci-gen-ai-2025",
+    "title": "Oracle Cloud Infrastructure 2025 Generative AI Professional",
+    "issuer": "Oracle",
+    "year": "2025",
+    "skillsImproved": [
+      "Generative AI and Cloud AI Services"
+    ],
+    "description": "This certification improved my understanding of Generative AI concepts and cloud-based AI services, supporting my goal of developing AI-integrated enterprise applications.",
+    "credentialUrl": "https://catalog-education.oracle.com/pls/certview/sharebadge?id=9A95692487621CC1EA19B575B52674A187D9957CB16DC1F115971B1569967E5B",
+    "imageUrl": "https://catalog-education.oracle.com/pls/certview/sharebadge?id=9A95692487621CC1EA19B575B52674A187D9957CB16DC1F115971B1569967E5B",
+    "attachments": []
+  },
+  {
+    "id": "mysql-dba-2025",
+    "title": "Oracle Certified Professional, MySQL 8.0 Database Administrator",
+    "issuer": "Oracle",
+    "year": "2025",
+    "skillsImproved": [
+      "Database Administration"
+    ],
+    "description": "This certification strengthened my database administration knowledge, which is useful for enterprise system development and database design.",
+    "credentialUrl": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=9F9C74CF7FCA0CADC17F9F11114193FDECB837065F4D6CC38DCDEC1775DD8546",
+    "imageUrl": "",
+    "attachments": []
+  },
+  {
+    "id": "oracle-cloud-infrastructure-ai-foundations-associate-2025",
+    "title": "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
+    "issuer": "Oracle",
+    "year": "2025",
+    "skillsImproved": [
+      "Cloud Computing Fundamentals"
+    ],
+    "description": "This certification provided a strong foundation in cloud computing concepts and Oracle Cloud services, supporting my goal of gaining cloud experience for enterprise software development.",
+    "credentialUrl": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=1E4B511492C8576F71E4E8AC4D95F59E5BC93E7292BBF19C02037C782B789A98",
+    "imageUrl": "",
+    "attachments": []
+  },
+  {
+    "id": "google-cloud-data-analytics-certificate-2024",
+    "title": "Google Cloud Data Analytics Certificate",
+    "issuer": "Google",
+    "year": "2024",
+    "skillsImproved": [
+      "Google BigQuery and Data Analytics",
+      "Business Intelligence",
+      "Data Visualization",
+      "Data Modeling",
+      "Data Transformation",
+      "Data Pipelines"
+    ],
+    "description": "This certification enhanced my understanding of cloud architecture principles and Oracle Cloud services, which is beneficial for designing scalable enterprise applications.",
+    "credentialUrl": "https://catalog-education.oracle.com/pls/certview/sharebadge?id=9F9C74CF7FCA0CADC17F9F11114193FDECB837065F4D6CC38DCDEC1775DD8546",
+    "imageUrl": "",
+    "attachments": []
+  },
+  {
+    "id": "oracle-cloud-infrastructure-developer-associate-2024",
+    "title": "Oracle Cloud Infrastructure Developer Associate 2024 Certified Associate",
+    "issuer": "Oracle",
+    "year": "2024",
+    "skillsImproved": [
+      "Cloud Development and DevOps"
+    ],
+    "description": "This certification improved my cloud development and DevOps skills, which are essential for building and deploying enterprise applications on cloud platforms.",
+    "credentialUrl": "https://catalog-education.oracle.com/pls/certview/sharebadge?id=9F9C74CF7FCA0CADC17F9F11114193FDECB837065F4D6CC38DCDEC1775DD8546",
+    "imageUrl": "",
+    "attachments": []
+  }
+]

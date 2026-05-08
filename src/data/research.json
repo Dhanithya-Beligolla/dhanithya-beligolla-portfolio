@@ -1,0 +1,50 @@
+{
+  "title": "Adaptive AI Productivity Assistant for Developers in VS Code",
+  "projectId": "25-26J-279",
+  "role": "Researcher and Developer",
+  "mainContribution": "Intelligent TODO Tracker",
+  "category": "Final Year Research Project",
+  "websiteUrl": "https://research-website-busybee.vercel.app/",
+  "githubUrl": "https://research-website-busybee.vercel.app/",
+  "demoUrl": "https://research-website-busybee.vercel.app/",
+  "description": "An AI-powered developer productivity assistant built as a VS Code extension. The project focuses on improving developer workflow through intelligent task tracking, productivity analysis, and context-aware support inside the coding environment.",
+  "myContribution": "My main contribution is the Intelligent TODO Tracker, which detects TODO-related tasks from source code and developer notes, enriches them using heuristic and ML-based methods, links tasks with related files, prioritizes tasks, and stores TODOs in a workspace-scoped structure.",
+  "features": [
+    "Workspace-scoped TODO tracking",
+    "Hybrid heuristic and ML-based TODO detection",
+    "TODO priority prediction",
+    "Related file identification",
+    "VS Code webview dashboard",
+    "Project-based storage using .vscode with fallback storage",
+    "Backend and PythonBridge support for ML inference"
+  ],
+  "technologies": [
+    "VS Code Extension API",
+    "TypeScript",
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "Python",
+    "Machine Learning",
+    "NLP"
+  ],
+  "attachments": [
+    {
+      "label": "Research Website",
+      "type": "website",
+      "url": "https://research-website-busybee.vercel.app/"
+    },
+    {
+      "label": "Project Proposal",
+      "type": "pdf",
+      "url": "https://research-website-busybee.vercel.app/"
+    },
+    {
+      "label": "Demo Video",
+      "type": "video",
+      "url": "https://research-website-busybee.vercel.app/"
+    }
+  ]
+}

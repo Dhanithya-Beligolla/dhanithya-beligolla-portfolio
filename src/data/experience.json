@@ -1,0 +1,27 @@
+[
+  {
+    "role": "Trainee Software Engineer",
+    "company": "DFCC Bank PLC",
+    "department": "R&D IT",
+    "period": "June 2025 - Present",
+    "summary": "Working on enterprise banking solutions, workflow automation, system design, database design, integrations, testing, and deployment cycles.",
+    "highlights": [
+      "Main developer for Centralized Credit Management Workflow.",
+      "Contributed to CRM Lead Management and Ticketing Management systems.",
+      "Main developer for Complaint Management System using Microsoft Power Platform.",
+      "Working on Credit Card Workflow with CRIB, DRP, fraud detection, and liveness verification integrations."
+    ]
+  },
+  {
+    "role": "Internship Software Engineer",
+    "company": "DFCC Bank PLC",
+    "department": "R&D IT",
+    "period": "May 2024 - June 2025",
+    "summary": "Contributed to chatbot solutions, call centre automation, and enterprise support applications.",
+    "highlights": [
+      "Contributed to chatbot solutions for HR, Digital Banking, and Compliance departments.",
+      "Used Google Vertex AI Workbench for intelligent assistant development.",
+      "Supported call centre automation by identifying callers and displaying customer information in the 360 Dashboard."
+    ]
+  }
+]

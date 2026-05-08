@@ -1,0 +1,34 @@
+[
+  {
+    "period": "Short-Term Goals",
+    "timeline": "2026",
+    "goals": [
+      "Complete BSc (Hons) in Information Technology at SLIIT.",
+      "Finalize and publish the Adaptive AI Productivity Assistant research project.",
+      "Improve React, Node.js, TypeScript, Oracle DB, Python, and cloud skills.",
+      "Maintain a professional portfolio website with CV, certificates, and project links.",
+      "Prepare for Associate Software Engineer or Full-Stack Developer opportunities."
+    ]
+  },
+  {
+    "period": "Medium-Term Goals",
+    "timeline": "2027 - 2028",
+    "goals": [
+      "Work as an Associate Software Engineer or Full-Stack Engineer.",
+      "Contribute to production-grade enterprise software systems.",
+      "Improve system design, secure backend development, API design, and database optimization skills.",
+      "Gain more cloud, AI/ML, and microservices experience.",
+      "Build stronger expertise in AI-integrated software applications."
+    ]
+  },
+  {
+    "period": "Long-Term Goals",
+    "timeline": "2029 - 2031",
+    "goals": [
+      "Progress toward Senior Software Engineer or Solution Architect roles.",
+      "Lead development modules and mentor junior developers.",
+      "Specialize in enterprise software systems, AI-powered applications, and developer productivity platforms.",
+      "Contribute to innovative products that solve real-world business and developer workflow problems."
+    ]
+  }
+]
