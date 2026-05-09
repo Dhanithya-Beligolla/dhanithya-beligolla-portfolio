@@ -24,7 +24,8 @@ const initialFormState: ContactFormState = {
 };
 
 const emailServiceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-const emailTemplateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const emailNotificationTemplateId = import.meta.env.VITE_EMAILJS_NOTIFICATION_TEMPLATE_ID;
+const emailAutoReplyTemplateId = import.meta.env.VITE_EMAILJS_AUTO_REPLY_TEMPLATE_ID;
 const emailPublicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 export default function ContactFormModal({ isOpen, onClose }: ContactFormModalProps) {
@@ -51,32 +52,50 @@ export default function ContactFormModal({ isOpen, onClose }: ContactFormModalPr
     setStatusKind("idle");
 
     try {
-      if (!emailServiceId || !emailTemplateId || !emailPublicKey) {
+      if (!emailServiceId || !emailNotificationTemplateId || !emailAutoReplyTemplateId || !emailPublicKey) {
         throw new Error("Email service is not configured yet. Add your EmailJS values in .env.");
       }
 
+      const templateParams = {
+        from_name: form.name,
+        from_email: form.email,
+        subject: form.subject,
+        company: form.company || "Not provided",
+        message: form.message,
+        reply_to: form.email,
+      };
+
+      // Send notification email to portfolio owner
       await emailjs.send(
         emailServiceId,
-        emailTemplateId,
+        emailNotificationTemplateId,
+        templateParams,
         {
-          from_name: form.name,
-          from_email: form.email,
-          subject: form.subject,
-          company: form.company || "Not provided",
-          message: form.message,
-          reply_to: form.email,
+          publicKey: emailPublicKey,
         },
+      );
+
+      // Send auto-reply confirmation email to visitor
+      await emailjs.send(
+        emailServiceId,
+        emailAutoReplyTemplateId,
+        templateParams,
         {
           publicKey: emailPublicKey,
         },
       );
 
       setStatusKind("success");
-      setStatus("Message sent successfully. I will get back to you soon.");
+      setStatus("Thank you! Your message has been sent successfully.");
       setForm(initialFormState);
+      
+      // Close modal after successful send
+      setTimeout(() => {
+        onClose();
+      }, 1500);
     } catch (error) {
       setStatusKind("error");
-      setStatus(error instanceof Error ? error.message : "Unable to send message right now.");
+      setStatus(error instanceof Error ? error.message : "Sorry, something went wrong. Please try again later.");
     } finally {
       setIsSubmitting(false);
     }

@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import ResearchSection from "../components/ResearchSection";
-import ExperienceSection from "../components/ExperienceSection";
+import ExperienceJourney from "../components/ExperienceJourney";
 import SkillsSection from "../components/SkillsSection";
 import ReflectiveJournalSection from "../components/ReflectiveJournalSection";
 import CareerPlanSection from "../components/CareerPlanSection";
@@ -40,7 +40,7 @@ export default function PortfolioPage() {
       <Hero />
       <About />
       <ResearchSection />
-      <ExperienceSection />
+      <ExperienceJourney />
 
       <section id="projects" className="bg-slate-50 px-5 py-20">
         <div className="mx-auto max-w-7xl">

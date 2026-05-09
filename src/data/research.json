@@ -37,14 +37,14 @@
       "url": "https://research-website-busybee.vercel.app/"
     },
     {
-      "label": "Project Proposal",
+      "label": "Research Paper",
       "type": "pdf",
       "url": "https://research-website-busybee.vercel.app/"
     },
     {
       "label": "Demo Video",
       "type": "video",
-      "url": "https://research-website-busybee.vercel.app/"
+      "url": "#"
     }
   ]
 }

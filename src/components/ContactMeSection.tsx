@@ -35,23 +35,14 @@ export default function ContactMeSection() {
               Reach out if you are hiring, building a product, or looking for someone who can contribute across enterprise systems, modern web development, and practical AI features.
             </p>
 
-            <div className="mt-8 flex flex-wrap gap-4">
+            <div className="mt-8">
               <button
                 type="button"
                 onClick={() => setIsModalOpen(true)}
-                className="inline-flex items-center gap-2 rounded-full bg-cyan-400 px-6 py-3 font-semibold text-slate-950 transition hover:bg-cyan-300"
+                className="inline-flex items-center gap-2 rounded-full bg-cyan-400 px-8 py-4 text-lg font-semibold text-slate-950 shadow-lg shadow-cyan-400/20 transition hover:bg-cyan-300"
               >
-                Start a Conversation <ArrowRight size={18} />
+                Start a Conversation <ArrowRight size={20} />
               </button>
-
-              <a
-                href={profile.cvUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-full border border-white/20 px-6 py-3 font-semibold text-white transition hover:border-cyan-300 hover:text-cyan-200"
-              >
-                View CV <ArrowRight size={18} />
-              </a>
             </div>
 
             <div className="mt-10 grid gap-4 md:grid-cols-3">
