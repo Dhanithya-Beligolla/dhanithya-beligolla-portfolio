@@ -20,7 +20,7 @@ import defaultCertificates from "../data/certificates.json";
 import type { Certificate, Project } from "../types/portfolio";
 
 export default function PortfolioPage() {
-  const [showEditor, setShowEditor] = useState(false);
+  const [showEditor] = useState(false);
 
   const {
     items: projects,
@@ -81,13 +81,13 @@ export default function PortfolioPage() {
 
       <section className="no-print bg-slate-50 px-5 py-12">
         <div className="mx-auto max-w-7xl">
-          <button
+          {/* <button
             type="button"
             onClick={() => setShowEditor((value) => !value)}
             className="rounded-full bg-slate-950 px-5 py-3 text-sm font-semibold text-white hover:bg-slate-800"
           >
             {showEditor ? "Hide Data Editor" : "Show Data Editor"}
-          </button>
+          </button> */}
 
           {showEditor && (
             <div className="mt-6 grid gap-6">

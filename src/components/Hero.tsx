@@ -9,21 +9,25 @@ export default function Hero() {
     >
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,#2563eb55,transparent_35%),radial-gradient(circle_at_bottom_left,#06b6d455,transparent_30%)]" />
 
-      <div className="relative mx-auto grid max-w-7xl gap-12 md:grid-cols-[1.15fr_0.85fr] md:items-center">
-        <div>
-          <p className="text-sm font-bold uppercase tracking-[0.3em] text-blue-300">
+      <div className="relative mx-auto grid max-w-7xl items-center gap-12 md:grid-cols-2">
+        {/* ── Left: identity block ── */}
+        <div className="order-2 md:order-1">
+          <p className="text-xs font-bold uppercase tracking-[0.28em] text-blue-300">
             Professional Portfolio
           </p>
 
-          <h1 className="mt-5 text-4xl font-black leading-tight md:text-6xl">
-            Hi, I’m <span className="text-blue-400">{profile.name}</span>
+          <h1 className="mt-4 text-4xl font-black leading-tight md:text-6xl">
+            Hi, I&apos;m{" "}
+            <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+              {profile.name}
+            </span>
           </h1>
 
-          <p className="mt-5 text-xl font-semibold text-slate-200">
+          <p className="mt-4 text-xl font-semibold text-slate-200">
             {profile.title}
           </p>
 
-          <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
+          <p className="mt-5 max-w-xl text-base leading-8 text-slate-300">
             {profile.summary}
           </p>
 
@@ -75,53 +79,47 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="relative mx-auto w-full max-w-md">
-          <div className="absolute -inset-4 rounded-[2.5rem] bg-blue-500/20 blur-2xl" />
+        {/* ── Right: profile image ── */}
+        <div className="order-1 flex justify-center md:order-2 md:justify-end">
+          <div className="relative">
+            {/* outer ambient glow */}
+            <div className="absolute -inset-6 rounded-full bg-gradient-to-br from-cyan-500/30 to-blue-600/30 blur-3xl" />
 
-          <div className="relative rounded-[2rem] border border-white/10 bg-white/10 p-6 shadow-2xl backdrop-blur">
-            <div className="overflow-hidden rounded-[1.5rem] border border-white/10 bg-slate-900">
+            {/* spinning dashed ring */}
+            <div className="absolute -inset-3 animate-[spin_18s_linear_infinite] rounded-full border-2 border-dashed border-cyan-400/30" />
+
+            {/* solid gradient ring */}
+            <div className="absolute -inset-1.5 rounded-full bg-gradient-to-br from-cyan-400 to-blue-600 opacity-80 blur-[2px]" />
+
+            {/* photo */}
+            <div className="relative h-64 w-64 overflow-hidden rounded-full border-4 border-slate-950 md:h-80 md:w-80">
               {profile.profileImageUrl ? (
                 <img
                   src={profile.profileImageUrl}
-                  alt={`${profile.name} profile`}
-                  className="h-80 w-full object-cover object-center"
+                  alt={profile.name}
+                  className="h-full w-full object-cover object-center"
                 />
               ) : (
-                <div className="flex h-80 items-center justify-center bg-slate-800 text-center text-slate-400">
-                  Add your profile image URL in profile.json
+                <div className="flex h-full w-full items-center justify-center bg-slate-800 text-6xl font-black text-blue-400">
+                  {profile.name.charAt(0)}
                 </div>
               )}
+            </div>
 
-              <div className="p-6">
-                <p className="text-sm font-semibold text-blue-300">
-                  Main Focus
-                </p>
+            {/* available badge */}
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-2 rounded-full border border-white/10 bg-slate-900/90 px-4 py-2 text-xs font-semibold text-emerald-400 shadow-xl backdrop-blur-sm whitespace-nowrap">
+              <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-400" />
+              Available for opportunities
+            </div>
 
-                <h2 className="mt-3 text-2xl font-bold">
-                  AI-powered Developer Productivity Research
-                </h2>
+            {/* floating skill chip — top right */}
+            <div className="absolute -right-4 top-8 rounded-2xl border border-white/10 bg-slate-900/90 px-3 py-2 text-xs font-semibold text-cyan-300 shadow-xl backdrop-blur-sm">
+              Full-Stack Dev
+            </div>
 
-                <p className="mt-4 leading-7 text-slate-300">
-                  Featured research project: Adaptive AI Productivity Assistant for
-                  Developers in VS Code, with Intelligent TODO Tracker as my main
-                  contribution.
-                </p>
-
-                <div className="mt-6 grid gap-3 text-sm">
-                  <div className="rounded-xl bg-white/5 p-4">
-                    Full-Stack Development
-                  </div>
-                  <div className="rounded-xl bg-white/5 p-4">
-                    Enterprise Banking Systems
-                  </div>
-                  <div className="rounded-xl bg-white/5 p-4">
-                    AI/ML and NLP
-                  </div>
-                  <div className="rounded-xl bg-white/5 p-4">
-                    VS Code Extension Development
-                  </div>
-                </div>
-              </div>
+            {/* floating skill chip — top left */}
+            <div className="absolute -left-4 top-16 rounded-2xl border border-white/10 bg-slate-900/90 px-3 py-2 text-xs font-semibold text-blue-300 shadow-xl backdrop-blur-sm">
+              AI / ML
             </div>
           </div>
         </div>
