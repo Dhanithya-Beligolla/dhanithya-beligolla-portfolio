@@ -1,9 +1,16 @@
 [
   {
+    "role": "Associate Software Engineer",
+    "company": "SYNAPSYS LTD",
+    "department": "IT",
+    "period": "June 2026 - Present",
+    "summary": "Working on enterprise banking solutions, workflow automation, system design, database design, integrations, testing, and deployment cycles."
+  },
+  {
     "role": "Trainee Software Engineer",
     "company": "DFCC Bank PLC",
     "department": "R&D IT",
-    "period": "June 2025 - Present",
+    "period": "June 2025 - June 2026",
     "summary": "Working on enterprise banking solutions, workflow automation, system design, database design, integrations, testing, and deployment cycles.",
     "highlights": [
       "Main developer for Centralized Credit Management Workflow.",
