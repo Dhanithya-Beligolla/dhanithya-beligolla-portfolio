@@ -6,7 +6,7 @@ A modern, fully responsive personal portfolio website built with **React 19**, *
 
 ## Live Demo
 
-> [https://dhanithya-beligolla.vercel.app/.](https://dhanithya-beligolla-portfolio.vercel.app/)
+> [https://dhanithya.beligolla.dbel.lk/.](https://dhanithya.beligolla.dbel.lk/)
 
 ---
 
